@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap Icons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <nav>
+
+    <!-- Logo And Logo Name Section -->
+    <div class="logo-name">
+
+      <div class="logo-img">
+        <img src="images/logo.png" alt="logo">
+      </div>
+
+      <span class="company-name">THEWEBDESIGNER</span>
+    </div>
+    <!-- Logo And Logo Name Section End -->
+
+    <div class="menu-items">
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class="bi bi-house"></i>
+            <span class="link-name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-envelope"></i>
+            <span class="link-name">Mail</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-tag"></i>
+            <span class="link-name">Labels</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-people"></i>
+            <span class="link-name">Users</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-journals"></i>
+            <span class="link-name">Sessions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-clipboard2-data"></i>
+            <span class="link-name">Analytics</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-rss"></i>
+            <span class="link-name">Network</span>
+          </a>
+        </li>
+      </ul>
+
+
+      <ul class="logout">
+
+        <!-- Logout -->
+        <li>
+          <a href="#">
+            <i class="bi bi-box-arrow-left"></i>
+            <span class="link-name">Log Out</span>
+          </a>
+        </li>
+        <!-- Dark/Light Mode Switch -->
+        <li class="mode">
+          <a href="#">
+            <i class="bi bi-moon"></i>
+            <span class="link-name">Dark Mode</span>
+          </a>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Dashboard Section -->
+  <section class="dashboard">
+    <div class="top">
+      <i class="bi bi-list sidebar-toggle"></i>
+
+      <div class="search-box">
+        <i class="bi bi-search"></i>
+        <input type="text" placeholder="search here...">
+      </div>
+
+      <img src="images/profile.jpg" alt="profile-image">
+    </div>
+
+    <div class="dashboard-content">
+
+      <div class="overview">
+
+        <div class="title">
+          <i class="bi bi-speedometer"></i>
+          <span class="text">Dashboard</span>
+        </div>
+
+        <div class="boxes">
+
+          <div class="box box1">
+            <i class="bi bi-clipboard-data"></i>
+            <span class="text">Total Likes</span>
+            <span class="number">10,000</span>
+          </div>
+
+          <div class="box box2">
+            <i class="bi bi-person-circle"></i>
+            <span class="text">User Profiles</span>
+            <span class="number">10,000</span>
+          </div>
+
+          <div class="box box3">
+            <i class="bi bi-eye"></i>
+            <span class="text">Total Views</span>
+            <span class="number">10,000</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="activity">
+        <div class="title">
+          <i class="bi bi-clock"></i>
+          <span class="text">Recents</span>
+        </div>
+
+        <div class="activity-data">
+
+          <div class="data names">
+            <span class="data-title">Name</span>
+            <span class="data-list">THEWEBDESIGNER</span>
+            <span class="data-list">THEWEBDESIGNER</span>
+            <span class="data-list">THEWEBDESIGNER</span>
+            <span class="data-list">THEWEBDESIGNER</span>
+            <span class="data-list">THEWEBDESIGNER</span>
+          </div>
+
+          <div class="data email">
+            <span class="data-title">Email</span>
+            <span class="data-list">thewebdesigner@example.com</span>
+            <span class="data-list">thewebdesigner@example.com</span>
+            <span class="data-list">thewebdesigner@example.com</span>
+            <span class="data-list">thewebdesigner@example.com</span>
+            <span class="data-list">thewebdesigner@example.com</span>
+          </div>
+
+          <div class="data joined">
+            <span class="data-title">Joined</span>
+            <span class="data-list">2018-01-01</span>
+            <span class="data-list">2018-01-01</span>
+            <span class="data-list">2018-01-01</span>
+            <span class="data-list">2018-01-01</span>
+            <span class="data-list">2018-01-01</span>
+          </div>
+
+          <div class="data type">
+            <span class="data-title">Type</span>
+            <span class="data-list">New</span>
+            <span class="data-list">New</span>
+            <span class="data-list">New</span>
+            <span class="data-list">New</span>
+            <span class="data-list">New</span>
+          </div>
+
+          <div class="data status">
+            <span class="data-title">Status</span>
+            <span class="data-list">Verified</span>
+            <span class="data-list">Verified</span>
+            <span class="data-list">Verified</span>
+            <span class="data-list">Verified</span>
+            <span class="data-list">Verified</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>
